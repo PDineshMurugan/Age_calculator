@@ -31,7 +31,7 @@ This is a simple web application that calculates age based on the provided birth
 
 ## Screenshots
 
-![Screenshot](screenshots/screenshot.png)
+![Screenshot](age-calculator-app-main/design/active-states.jpg)
 
 ## Contributing
 
