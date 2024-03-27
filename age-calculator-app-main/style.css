@@ -1,0 +1,141 @@
+*{
+
+        font-family: "Poppins", sans-serif;
+      
+      
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 86%);
+   
+}
+.contanier{
+    margin-top: 40%;
+    margin-bottom: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contanier{
+    padding: 50px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px 10px 100px 10px;
+}
+.contanier input{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.day{
+    margin-left:20px;
+}
+.year{
+    margin: 85px;
+}
+.mon{
+    margin: 10px;
+}
+span{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+img{
+    width: 50px;
+    height: 50px;
+   
+}
+.line-arrow {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .line{
+    border: 2px solid rgb(156, 156, 156);
+    width: 580px;
+    height: 2px;
+    background-color:  rgb(156, 156, 156);
+}   
+  
+  .arrow img {
+    width: 50px; 
+    height: auto;
+    margin-left: 10px; 
+    cursor: pointer;
+  }
+  .arrow img:hover {
+    transform: scale(1.2); 
+    transition: 0.5s;
+ 
+  }
+  #nyear{
+    color: hsl(259, 100%, 65%);
+    margin-right: 20px;
+   
+  }
+  #nmonth{
+    color: hsl(259, 100%, 65%);
+    
+    margin-right: 20px;
+  }
+  #nday{
+ 
+    color: hsl(259, 100%, 65%);
+
+    margin-right: 20px;
+  }
+  .change{
+    font-size: 40px;
+    font-weight: 600;
+    display: flex; 
+
+    flex-direction: row;
+  }
+  #day :focus{
+    border-color:  hsl(259, 100%, 65%);
+  }
+  
+  
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  *{
+    max-width: 350px;
+    height: auto;
+    font-size: 10px;
+
+    
+  }
+  
+.day{
+  margin-left:10px;
+}
+.year{
+  margin: 30px;
+}
+.mon{
+  margin: 0px;
+}
+  input{
+    max-width: 15px;
+    height: 5px;
+    margin: 0;
+  }
+  .container {
+      padding: 10px;
+      width: 100px;
+  }
+  .label {
+      font-size: 14px;
+  }
+  .change {
+      font-size: 20px;
+  }
+}
