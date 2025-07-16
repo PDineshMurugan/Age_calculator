@@ -31,10 +31,10 @@ This is a simple web application that calculates age based on the provided birth
 
 ## Screenshots
 
-![Screenshot](age-calculator-app-main/design/active-states.jpg)
+![Screenshot](design/active-states.jpg)
 
 ## Live Link
-[click Here].(https://pdineshmurugan.github.io/Age_calculator/age-calculator-app-main/)
+[click Here].(https://pdineshmurugan.github.io/Age_calculator/)
 
 ## Contributing
 
