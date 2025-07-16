@@ -8,7 +8,7 @@ function calculate() {
     const nmonth = today.getMonth() + 1;
     const ndate = today.getDate();
 
-    if(day > 31 || day < 0 ||  mon > 12 || mon < 0 || year < 1900 || year > 2024){
+    if(day > 31 || day < 0 ||  mon > 12 || mon < 0 || year < 1900 || year > 2024 || isNaN(day) || isNaN(mon) || isNaN(year)){
         alert("something entered is wrong ");
     }
 else{
@@ -33,8 +33,6 @@ else{
     changemonth.textContent = agemonth;
     changeday.textContent = ageday;
 
-    console.log(ageyear);
-    console.log("Today's date:", nyear, nmonth, ndate);
 }
 
 // Function to get the number of days in a month
